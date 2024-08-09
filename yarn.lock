@@ -474,6 +474,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsu/string@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@tsu/string@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^9.8.0"
+    "@types/eslint__js": "npm:^8.42.3"
+    "@types/node": "npm:^22.1.0"
+    eslint: "npm:9.x"
+    globals: "npm:^15.9.0"
+    prettier: "npm:^3.3.3"
+    tslib: "npm:^2.6.3"
+    typescript: "npm:^5.4.5"
+    typescript-eslint: "npm:^8.0.0"
+    vitest: "npm:^2.0.5"
+  languageName: unknown
+  linkType: soft
+
 "@types/eslint@npm:*":
   version: 9.6.0
   resolution: "@types/eslint@npm:9.6.0"
@@ -2521,23 +2538,6 @@ __metadata:
   checksum: 10c0/2598aef53d9dbe711af75522464b2104724d6467b26a60f2bdac8297d2b5f1f6b86a71f61717384aa8fd897240467aaa7bcc36a0700a0faf751293d1331db39a
   languageName: node
   linkType: hard
-
-"tsu-string@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "tsu-string@workspace:."
-  dependencies:
-    "@eslint/js": "npm:^9.8.0"
-    "@types/eslint__js": "npm:^8.42.3"
-    "@types/node": "npm:^22.1.0"
-    eslint: "npm:9.x"
-    globals: "npm:^15.9.0"
-    prettier: "npm:^3.3.3"
-    tslib: "npm:^2.6.3"
-    typescript: "npm:^5.4.5"
-    typescript-eslint: "npm:^8.0.0"
-    vitest: "npm:^2.0.5"
-  languageName: unknown
-  linkType: soft
 
 "type-check@npm:^0.4.0, type-check@npm:~0.4.0":
   version: 0.4.0

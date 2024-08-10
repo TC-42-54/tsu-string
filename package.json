@@ -1,11 +1,12 @@
 {
-  "name": "@tsu/string",
+  "name": "@tsupp/string",
   "packageManager": "yarn@4.4.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TC-42-54/tsu-string.git"
+    "url": "git+https://github.com/TC-42-54/tsu-string.git"
   },
   "version": "0.0.1",
+  "private": false,
   "scripts": {
     "postinstall": "corepack enable && tsc",
     "build": "tsc",

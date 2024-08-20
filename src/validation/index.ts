@@ -1,6 +1,6 @@
-import assert, { AssertionError } from "assert";
+import assert, { AssertionError } from 'assert';
 
-export const isString = (str: unknown) => typeof str === "string";
+export const isString = (str: unknown) => typeof str === 'string';
 export const assertString = (
   str: unknown,
   functionName: string,
